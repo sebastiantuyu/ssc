@@ -1,10 +1,15 @@
 #! /bin/bash 
 
-
+VERSION="v0.0.1"
 #################################
 #   Install nginx simple config #
-#           v0.0.1              #
 #################################
+
+echo "========================"
+echo "Simple Server Config"
+echo "Version: ${VERSION}"
+echo "========================"
+
 sudo apt update
 sudo apt install -y nginx
 
